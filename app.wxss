@@ -1,0 +1,22 @@
+
+.container {width:750rpx;box-sizing: border-box;overflow-x:hidden;}
+.r_flex{display: flex;flex-direction: row;justify-content:flex-start;}
+.rfl_ex{display: flex;flex-direction: row;justify-content:center;}
+.rflex_{display: flex;flex-direction: row;justify-content:flex-end;}
+.r_flex_{display: flex;flex-direction: row;justify-content:space-between;}
+.l_flex{display: flex;flex-direction: column;justify-content: flex-start;}
+.lfl_ex{display: flex;flex-direction: column;justify-content: center;}
+.lflex_{display: flex;flex-direction: column;justify-content: flex-end;}
+.l_flex_{display: flex;flex-direction: column;justify-content: space-between;}
+.align_str{align-items: flex-start}
+.align_cen{align-items: center;}
+.align_end{align-items:flex-end;}
+.align_line{align-items: baseline;}
+.wrap{flex-wrap:wrap;align-content:flex-start}
+.flex1{flex:1;}
+
+page{font-size:26rpx;color:#888888;}
+image{display:block;}
+
+/* 模板 */
+/* @import 'template/public.wxss'; */

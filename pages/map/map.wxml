@@ -1,0 +1,42 @@
+<map id="map" class="map" longitude="110.48809747535707" latitude="29.888888799670912" scale="14" markers="{{markers}}" bindmarkertap="markertap"
+    bindtap="maptap_Fn" polyline="{{polyline}}" bindregionchange="regionchange" show-location style="width:750rpx; height:100vh;">
+
+    <cover-image wx:if="{{showQizi}}" class="mudidi" src="/images/qizi.png"/>
+
+    <!-- 导航 -->
+    <cover-image class="daohang loaction_path" src="/images/daohang.png" bindtap="daohang_Fn" />
+    <!-- 子选项 -->
+    <cover-view class="choosepath {{showSubMenu?'showsub':''}}">
+        <cover-view class="r_flex align_cen chooselist" catchtap="buLine_Fn">
+            <cover-image class="path_icon" src="/images/person.png" />
+            <cover-view class="">步行路线</cover-view>
+        </cover-view>
+        <cover-view class="r_flex align_cen chooselist" catchtap="bickLine_Fn">
+            <cover-image class="path_icon" src="/images/bick.png" />
+            <cover-view class="">骑行路线</cover-view>
+        </cover-view>
+        <cover-view class="r_flex align_cen chooselist" catchtap="carLine_Fn">
+            <cover-image class="path_icon" src="/images/car.png" />
+            <cover-view class="">驾车路线</cover-view>
+        </cover-view>
+    </cover-view>
+
+    <cover-view class="choose_location rfl_ex align_cen">
+        <cover-view class="choose_locationbtn rfl_ex align_cen mar_r50" bindtap="meLocation_Fn">
+            <cover-view class="choose_location_bg"></cover-view>
+            <cover-image class="loaction_iconimg" src="/images/position.png" />
+            <cover-view class="choose_locationtext">查看我的位置</cover-view>
+        </cover-view>
+        <cover-view class="choose_locationbtn rfl_ex align_cen" bindtap="chooseOther_Fn">
+            <cover-view class="choose_location_bg"></cover-view>
+            <cover-image class="loaction_iconimg" src="/images/address.png" />
+            <cover-view class="choose_locationtext">{{showQizi?'完成位置选择':'选择目标位置'}}</cover-view>
+        </cover-view>
+    </cover-view>
+    
+    <cover-view class="coverviewbox" hidden="{{hiddenmeLocation}}">
+        <cover-view class="coverview ringanimation"></cover-view>
+        <cover-view class="coverview ringanimation delay15"></cover-view>
+    </cover-view>
+
+</map>

@@ -1,0 +1,29 @@
+/* pages/list/list.wxss */
+.header{height:312rpx;}
+.l_line{height:160rpx;width:2rpx;border-radius:1rpx;background:#F2F2F2;}
+.headicon{width:28rpx;height:28rpx;margin-right:16rpx;}
+.qiang1{font-size:30rpx;color:#F09439}
+.qiang{font-size:30rpx;color:#FC3800}
+.time{width:38rpx;height:38rpx;border-radius:6rpx;background:linear-gradient(#464749,#555658);line-height:38rpx;text-align:center;color:#ffffff;margin-left:3rpx;margin-right:3rpx;}
+.font22{font-size:22rpx;margin-top:16rpx;}
+.headerimg{width:186rpx;height:160rpx;}
+.gray{color:#A4A4A4}
+.spacing{height:18rpx;background:#F0F0F0;}
+
+.country_heat{width:750rpx;height:66rpx;text-align:center;font-size:32rpx;color:#4A4B4D;font-weight:600;line-height:66rpx;}
+.title_img{width:28rpx;height:28rpx;margin-right:12rpx;}
+.title_text{color:#AAAAAA;font-size:22rpx;}
+.menumiddle{margin-left:32rpx;margin-right:32rpx;}
+
+.list{height:350rpx;width:750rpx;}
+.item_l{width:350rpx;}
+.item_r{width:400rpx;height:348rpx;border-bottom:solid 1rpx #F2F2F2;box-sizing:border-box;padding-right:20rpx;}
+.item_l_img{width:280rpx;height:250rpx;}
+.country{width:44rpx;height:32rpx;}
+.detail_text{font-size:27rpx;color:#404041;}
+.people_img{width:50rpx;height:50rpx;border-radius:50%;}
+.people_say{border:solid 1rpx #D2D2D2;padding:10rpx 20rpx;font-size:20rpx;border-radius:8rpx;margin-left:8rpx;}
+.pic_text{color:#E1342B;font-size:34rpx;font-weight:bold;}
+.btn{width:144rpx;height:70rpx;background:#E02E24;border-radius:8rpx;font-size:28rpx;color:#ffffff;text-align:center;line-height:70rpx;}
+.w380{width:380rpx;}
+.item_r_middle{margin-top:16rpx;margin-bottom:70rpx;}

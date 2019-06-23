@@ -1,0 +1,53 @@
+<!--pages/chooseLib/chooseLib.wxml-->
+<view class="container">
+    <view class="r_flex_ align_str header">
+        <view class="writebox r_flex_ align_cen" bindtap="goMap_Fn">
+            <!-- <view class="add"></view> -->
+            <image src="/images/home1.png" mode="aspectFit" class="locationicon" />
+            <image src="/images/chanmao.jpg" mode="aspectFit" class="logo" />
+        </view>
+        <view class="content">
+            <view class="title">小馋猫零食铺子</view>
+            <view class="subtext">果干蜜饯，糖果饼干</view>
+            <view class="subtext">素食山珍，养生坚果</view>
+            <view class="subtext">肉脯零食，饮料饮品</view>
+        </view>
+    </view>
+    <view class="r_flex align_cen">
+        <view class="leftbox">
+            <view class="love">love</view>
+        </view>
+        <view class="rightbox">
+            <view class="r_flex align_cen list">
+                <view class="left_num">健康</view>
+                <view class="right_content">品质严控、健康诉求</view>
+            </view>
+            <view class="r_flex align_cen list">
+                <view class="left_num">时尚</view>
+                <view class="right_content">口味创新、包装创意</view>
+            </view>
+        </view>
+    </view>
+    <view class="rflex_ align_end wrap handlebox">
+        <view class="handlelist rfl_ex align_cen list1" bindtap="goList_Fn">
+            <image src="/images/sweet.png" class="listicon" /> 甜品
+        </view>
+        <view class="handlelist rfl_ex align_cen list2" bindtap="goList_Fn">
+            <image src="/images/drink.png" class="listicon" /> 饮料
+        </view>
+        <view class="handlelist rfl_ex align_cen list3" bindtap="goList_Fn">
+            <image src="/images/pepper.png" class="listicon" /> 香辣
+        </view>
+        <view class="handlelist rfl_ex align_cen list4">
+            <image src="/images/share.png" class="listicon" /> 分享
+            <button open-type="share" class="share" />
+        </view>
+    </view>
+    <view class="footer">
+        <view>让产品更具优势，让服务更具品质</view>
+        <view>时尚、健康、营养 的高品质放心零食</view>
+    </view>
+</view>
+
+
+<comgetuserinfo id="getuserinfo_com" />

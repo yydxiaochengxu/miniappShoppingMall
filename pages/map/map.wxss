@@ -1,0 +1,36 @@
+/* pages/mapPath/mapPath.wxss */
+.loaction_path{width:60rpx;height:60rpx;}
+.daohang{position:absolute;bottom:240rpx;width:60rpx;height:60rpx;padding:20rpx;left:0;}
+.choosepath{position:absolute;left:0;bottom:360rpx;transition-duration:.3s;transform:translateX(-100%);opacity:0;}
+.showsub{transform:translateX(0);opacity:1;}
+.chooselist{position: relative;color:#ffffff;padding:6rpx 10rpx;border-radius:6rpx;}
+.chooselist::before{position: absolute;content:"";width:100%;height:100%;background:black;z-index:-2;filter:blur(4rpx);opacity:0.6;}
+.path_icon{width:40rpx;height:40rpx;margin-right:20rpx;}
+
+.choose_location{position:absolute;right:0;bottom:50rpx;z-index:4;height:80rpx;line-height: 80rpx;width:inherit;text-align:center;}
+.loaction_iconimg{width:40rpx;height:40rpx;margin-right:20rpx;}
+.choose_locationbtn{position:relative;height:inherit;width:300rpx;border-radius:8rpx;}
+.choose_location_bg{position:absolute;width:inherit;height:inherit;top:0;left:0;background:#000000;z-index:-2;opacity:0.56;}
+.choose_locationtext{font-size:28rpx;color:#ffffff;}
+.mar_r50{margin-right:50rpx;}
+.map{position:relative;}
+.coverviewbox{width:inherit;height:inherit;position:absolute;top:0;left:0;}
+.mudidi{position:absolute;top:0;left:0;right:0;bottom:0;margin:auto;width:42rpx;height:42rpx;}
+.coverview{position:absolute;top:0;left:0;right:0;bottom:0;margin:auto;width:240rpx;height:240rpx;border-radius:50%;background:#0ff;transform:scale(0.02);opacity:1;}
+.delay15{
+    animation-delay: 1.5s;
+}
+.ringanimation{
+    animation-name: changebig;
+    animation-duration: 3s;
+    animation-timing-function:linear;
+    animation-iteration-count:infinite;
+}
+@keyframes changebig{
+    0%{
+        transform:scale(0.02);opacity:1;
+    }
+    100%{
+        transform:scale(1);opacity:0.2;
+    }
+}
