@@ -13,7 +13,16 @@ Page({
       // src1: "../../images/火.png",
       src1: "http://pic.90sjimg.com/design/00/98/55/69/592d40fe7eac4.jpg!/fwfh/634x756/quality/90/unsharp/true/compress/true",
       src2: "http://pic.90sjimg.com/design/00/64/69/98/5964460e91a2c.jpg!/fwfh/804x804/quality/90/unsharp/true/compress/true"
-    }
+    },
+    list:[
+      {
+        productimg:'/images/product1.jpg',
+        title:'产品名字',
+        content:'产品介绍文案，产品介绍文案',
+        oldpic:88,
+        newpic:68,
+      }
+    ]
   },
 
   gotodetail: function () {
@@ -34,11 +43,6 @@ Page({
    */
   onReady: function () {
     let that = this;
-    app.getUserInfo_js(that, userInfo => {
-      wx.setNavigationBarTitle({
-        title: userInfo.userInfo.nickName + '旗舰店'
-      })
-    })
   },
 
   changeTime: function () {

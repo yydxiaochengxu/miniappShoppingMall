@@ -1,1 +1,3 @@
 /* pages/product/product.wxss */
+.sharecanvas{width:750rpx;height:1200rpx;position:fixed;top:1500rpx;left:800rpx;}
+.shareimg{width:750rpx;height:1200rpx;transform:scale(0.8)}

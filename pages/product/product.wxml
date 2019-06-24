@@ -1,2 +1,5 @@
-<!--pages/product/product.wxml-->
-<text>pages/product/product.wxml</text>
+<canvas class="sharecanvas" canvas-id="myCanvas"></canvas>
+<view class="l_flex_ align_cen">
+    <image src="{{shareimg}}" class="shareimg" bind/>
+    <view class="" bindtap="store_Fn">保存至相册</view>
+</view>

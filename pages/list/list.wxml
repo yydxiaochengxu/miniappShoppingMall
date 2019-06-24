@@ -27,50 +27,34 @@
     </view>
     <view class="spacing"></view>
 
-    <view class="country_heat">全国热门</view>
-    <view class="rfl_ex">
-        <view class="r_flex align_cen">
-            <image mode ="aspectFit" class="title_img" src="{{images.src1}}"></image>
-            <view class="title_text">正品保障</view>
-        </view>
-        <view class="r_flex align_cen menumiddle">
-            <image mode ="aspectFit" class="title_img" src="{{images.src1}}"></image>
-            <view class="title_text">包税包邮</view>
-        </view>
-        <view class="r_flex align_cen">
-            <image mode ="aspectFit" class="title_img" src="{{images.src1}}"></image>
-            <view class="title_text">急速发货</view>
-        </view>
+    <view class="rfl_ex align_cen productbox_title">
+        <image class="productbox_titleicon" src="{{images.src1}}"></image>
+        <text>为你定制</text>
     </view>
-
-    <view class="" bindtap="gotodetail">
-        <block wx:for="{{[1,2,3]}}" wx:key="this">
-        <view class="list r_flex align_cen" id="{{item}}">
-            <view class="item_l rfl_ex">
-                <image mode ="aspectFit" class="item_l_img" src="{{images.src2}}"></image>
+    <view class="small_title">哈喽！放松自在好时光从现在开始</view>
+    <block wx:for="{{[1,2,3]}}">
+        <view class="product_list r_flex_ align_cen">
+            <view class="productimg_box">
+                <image class="product_img" mode="aspectFit" src="{{images.src2}}"></image>
+                <view wx:if="{{item<3}}" class="new_info">热销产品</view>
             </view>
-            <view class="item_r lfl_ex align_cen">
-                <view class="w380 detail_text">
-                    <image mode ="aspectFit" class="country" src="{{images.src1}}"></image>
-                    【宜昌直供】【秭归脐橙，长红，血橙】总有一个你喜欢
+            <view class="l_flex_ align_str product_content">
+                <view class="product_title">
+                    <image class="product_titleicon" src="{{images.src1}}"></image>
+                    <text>【 list标题 】</text>
+                    <text>轻轻一点，立马送到家</text>
                 </view>
-                <view class="r_flex align_cen w380 item_r_middle">
-                    <image mode ="aspectFit" class="people_img" src="{{images.src1}}"></image>
-                    <view class="people_say">求拼团</view>
-                </view>
-                <view class="r_flex_ align_cen w380">
-                    <view>
-                        <view class="title_text">已团1684件</view>
-                        <view class="pic_text">￥68</view>
+                <view class="r_flex_ align_cen product_operation">
+                    <view class="">
+                        <view class="old_pic">原价：￥288</view>
+                        <view class="new_pic">￥：66</view>
                     </view>
-                    <view class="btn">
-                        去购买 >
-                    </view>
+                    <view class="operation_btn">购买 ></view>
                 </view>
             </view>
         </view>
-        </block>
-    </view>
+    </block>
+    <view class="bottom rfl_ex align_cen">灯火提供技术支持</view>
 </view>
 
 <comgetuserinfo id="getuserinfo_com"/>

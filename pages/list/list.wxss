@@ -15,7 +15,7 @@
 .title_text{color:#AAAAAA;font-size:22rpx;}
 .menumiddle{margin-left:32rpx;margin-right:32rpx;}
 
-.list{height:350rpx;width:750rpx;}
+/* .list{height:350rpx;width:750rpx;}
 .item_l{width:350rpx;}
 .item_r{width:400rpx;height:348rpx;border-bottom:solid 1rpx #F2F2F2;box-sizing:border-box;padding-right:20rpx;}
 .item_l_img{width:280rpx;height:250rpx;}
@@ -26,4 +26,23 @@
 .pic_text{color:#E1342B;font-size:34rpx;font-weight:bold;}
 .btn{width:144rpx;height:70rpx;background:#E02E24;border-radius:8rpx;font-size:28rpx;color:#ffffff;text-align:center;line-height:70rpx;}
 .w380{width:380rpx;}
-.item_r_middle{margin-top:16rpx;margin-bottom:70rpx;}
+.item_r_middle{margin-top:16rpx;margin-bottom:70rpx;} */
+
+
+.productbox_title{height:60rpx;font-size:36rpx;padding-top:30rpx;}
+.productbox_titleicon{display:inline-block;width:36rpx;height:36rpx;background:#0ff;margin-right:16rpx;}
+.small_title{font-size:28rpx;color:gray;margin-top:10rpx;margin-bottom:20rpx;text-align:center;}
+.product_list{padding-left:10rpx;}
+.productimg_box{position:relative;width:320rpx;height:238rpx;overflow:hidden;}
+.product_img{display:block;width:290rpx;height:230rpx;position:absolute;top:0;left:0;right:0;bottom:0;margin:auto;background:rgb(247, 245, 245);border-radius:12rpx;}
+.new_info{background:orange;color:#ffffff;transform:rotate(45deg);width:150rpx;position:absolute;top:26rpx;right:-36rpx;font-size:22rpx;text-align:center;}
+.product_content{width:400rpx;height:230rpx;padding:30rpx 20rpx;border-bottom:solid 1rpx lightgray;}
+.product_titleicon{display:inline-block;width:28rpx;height:28rpx;background:#0ff;margin-right:10rpx;}
+.product_title{font-size:28rpx;overflow : hidden;text-overflow: ellipsis;display: -webkit-box;-webkit-line-clamp: 2;-webkit-box-orient: vertical;}
+.product_operation{width:380rpx;}
+.old_pic{font-size:24rpx;text-decoration:line-through;color:gray;}
+.new_pic{color:orangered;font-weight:bold;font-size:36rpx;}
+.operation_btn{padding:16rpx 20rpx;line-height:1;background:orangered;color:#ffffff;font-size:26rpx;border-radius:8rpx;}
+.bottom{height:100rpx;font-size:24rpx;color:gray;}
+.bottom::before{content:'';width:40rpx;height:2rpx;background:#cccccc;border-radius:50% 0 0 50%;margin-right:30rpx;}
+.bottom::after{content:'';width:40rpx;height:2rpx;background:#cccccc;border-radius:0 50% 50% 0;margin-left:30rpx;}
