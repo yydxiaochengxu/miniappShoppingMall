@@ -3,7 +3,7 @@
     <view class="r_flex_ align_str header">
         <view class="writebox r_flex_ align_cen" bindtap="goMap_Fn">
             <!-- <view class="add"></view> -->
-            <image src="/images/home1.png" mode="aspectFit" class="locationicon" />
+            <image src="/images/home.png" mode="aspectFit" class="locationicon" />
             <image src="/images/chanmao.jpg" mode="aspectFit" class="logo" />
         </view>
         <view class="content">

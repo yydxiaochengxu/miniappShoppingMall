@@ -1,5 +1,38 @@
 <canvas class="sharecanvas" canvas-id="myCanvas"></canvas>
-<view class="l_flex_ align_cen">
-    <image src="{{shareimg}}" class="shareimg" bind/>
-    <view class="" bindtap="store_Fn">保存至相册</view>
+<view wx:if="{{showShareImg}}" class="l_flex_ align_cen sharebox" bindtap="closeShare_Fn">
+    <image src="{{shareimg}}" class="shareimg" />
+    <view class="storebtn" bindtap="store_Fn">保存至相册</view>
+</view>
+<view class="">
+    <swiper class="swiper" indicator-dots="{{indicatorDots}}" autoplay circular interval="3200" duration="500">
+        <block wx:for="{{imgUrls}}">
+            <swiper-item>
+                <image src="{{item}}" mode="aspectFill" class="slide_image"/>
+            </swiper-item>
+        </block>
+    </swiper>
+</view>
+<view class="contentbox">
+    <view class="r_flex_ align_cen product">
+        <view class="flex1">
+            <view class="productname">产品名称</view>
+            <view class="productsubtitle">产品小标题</view>
+        </view>
+        <view class="lfl_ex align_cen sharebtnbox" bindtap="initCanvas_Fn">
+            <image src="/images/share.png" class="shareicon" />
+            <view class="share">分享</view>
+        </view>
+    </view>
+    
+    <view class="introduce">产品介绍：好多文本好多文本好多文本好多文本好多文本好多文本好多文本好多文本好多文本好多文本好多文本好多文本好多文本好多文本好多文本好多文本好多文本好多文本好多文本好多文本</view>
+
+    <view class="pricebox">
+        <view class="price">$66.00</view>
+        <view class="pricesub">xxxxxxx</view>
+    </view>
+
+    <view class="r_flex_ footerbtnbox">
+        <view class="leftbtn btn">查看购物车</view>
+        <view class="rightbtn btn">加入购物车</view>
+    </view>
 </view>

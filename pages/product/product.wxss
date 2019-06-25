@@ -1,3 +1,27 @@
 /* pages/product/product.wxss */
+page{background:#F9F9FB;}
+.sharebox{width:750rpx;min-height:1200rpx;height:100vh;position:relative;background:rgba(0,0,0,0.2);position: fixed;top:0;left:0;z-index:10;}
 .sharecanvas{width:750rpx;height:1200rpx;position:fixed;top:1500rpx;left:800rpx;}
-.shareimg{width:750rpx;height:1200rpx;transform:scale(0.8)}
+.shareimg{width:750rpx;height:1200rpx;transform:scale(0.8) translateY(-80rpx)}
+.storebtn{width:650rpx;height:82rpx;position:absolute;bottom:68rpx;left:50rpx;text-align:center;line-height:82rpx;background:#8FE2DD;color:#ffffff;border-radius:10rpx;letter-spacing:8rpx;}
+
+.swiper,.slide_image{width:750rpx;height:464rpx;}
+
+.product{margin-right:-30rpx;}
+.contentbox{padding:40rpx;}
+.productname{font-size:40rpx;font-weight:bold;color:#353535;letter-spacing:6rpx;}
+.productsubtitle{font-size:26rpx;color:#888888;margin-top:10rpx;letter-spacing:2rpx;}
+.sharebtnbox{width:120rpx;border-left:solid 1rpx #f2f2f2;}
+.shareicon{width:40rpx;height:40rpx;}
+.share{font-size:24rpx;color:#888888;margin-top:4rpx;}
+.introduce{margin-top:40rpx;font-size:26rpx;color:#888888;letter-spacing:4rpx;}
+.pricebox{margin-top:100rpx;}
+.price{font-size:40rpx;font-weight:bold;color:#353535;letter-spacing:6rpx;}
+.pricesub{font-size:26rpx;color:#888888;margin-top:10rpx;letter-spacing:2rpx;}
+
+.footerbtnbox{position:fixed;bottom:0;left:0;width:750rpx;height:92rpx;}
+.btn{width:375rpx;height:92rpx;text-align:center;line-height:92rpx;font-size:28rpx;}
+.leftbtn{background:#ffffff;color:#353535;}
+.rightbtn{background:#353535;color:#ffffff;}
+
+
