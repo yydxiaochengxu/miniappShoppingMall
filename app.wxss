@@ -17,6 +17,6 @@
 
 page{font-size:26rpx;color:#888888;}
 image{display:block;}
-
+.spacing{border-width:1rpx 0 1rpx 0;border-style:solid;border-color:rgb(225, 220, 220);height:16rpx;background:#f2f2f2;}
 /* 模板 */
 /* @import 'template/public.wxss'; */

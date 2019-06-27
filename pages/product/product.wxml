@@ -32,7 +32,7 @@
     </view>
 
     <view class="r_flex_ footerbtnbox">
-        <view class="leftbtn btn">查看购物车</view>
+        <view class="leftbtn btn" bindtap="goShoppingCar_Fn">查看购物车</view>
         <view class="rightbtn btn">加入购物车</view>
     </view>
 </view>

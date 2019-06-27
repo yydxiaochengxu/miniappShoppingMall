@@ -30,6 +30,11 @@ Page({
             }
         })
     },
+  goShoppingCar_Fn:function(){
+    wx.navigateTo({
+      url: '/pages/shoppingCar/shoppingCar',
+    })
+  },
     initCanvas_Fn: function () {
         let that = this;
         wx.showLoading({ title: '加载中', mask: true });
