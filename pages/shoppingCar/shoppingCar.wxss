@@ -1,6 +1,6 @@
 /* pages/storage/storage.wxss */
 .container{box-sizing:border-box;padding-bottom:100rpx;}
-.title{font-size:38rpx;height:100rpx;line-height: 100rpx;text-align:center;background:#F9F9F9;}
+.title{font-size:32rpx;height:100rpx;line-height: 100rpx;text-align:center;background:#F9F9F9;}
 
 .li_up{padding:0 30rpx;height:88rpx;font-size:24rpx;background:#ffffff;}
 .tianmao{width:56rpx;height:30rpx;background:orangered;color:#ffffff;font-size:18rpx;border-radius:6rpx;line-height:1;}

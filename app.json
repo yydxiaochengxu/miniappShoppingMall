@@ -1,5 +1,6 @@
 {
   "pages": [
+    "pages/record/record",
     "pages/index/index",
     "pages/shoppingCar/shoppingCar",
     "pages/product/product",
