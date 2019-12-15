@@ -1,7 +1,7 @@
 {
   "pages": [
-    "pages/record/record",
     "pages/index/index",
+    "pages/record/record",
     "pages/shoppingCar/shoppingCar",
     "pages/product/product",
     "pages/list/list",
@@ -11,7 +11,7 @@
   "window": {
     "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#fff",
-    "navigationBarTitleText": "WeChat",
+    "navigationBarTitleText": "小馋猫",
     "navigationBarTextStyle": "black"
   },
   "sitemapLocation": "sitemap.json"

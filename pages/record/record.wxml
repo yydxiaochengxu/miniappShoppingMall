@@ -1,17 +1,29 @@
 <view class="">
-  <view class=""></view>
-  <view class=""></view>
-  
-  <block wx:for="{{[1,2,3]}}">
-    <view class="list l_flex_">
-      <view>
-        <view class="r_flex align_cen">
-          <image src="/images/address.png" class="listimg" />
-          <view class="title">title</view>
+  <view class="listtile">休闲干果零食（20）</view>
+  <!-- <view class="list "></view> -->
+  <!-- <view class="iconfont icon-buoumaotubiao44"></view> -->
+  <view class="listarr">
+    <block wx:for="{{[1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20]}}">
+        <view class="list r_flex_" bind:tap="goDetail_Fn">
+            <view wx-if="{{index<2}}" class="jian">荐</view>
+            <view class="list_l">
+                <image src="/images/product{{item}}.jpg" mode="aspectFill" class="listimg" />
+            </view>
+            <view class="flex1 l_flex_">
+                <view class="">
+                    <view class="producttitle">奶油味夏威夷果</view>
+                    <view class="starfen r_flex align_cen">
+                    <view class="starbox">
+                        <view class="star" style="width:90%;"></view>
+                    </view>
+                    <view class="fen">90分</view>
+                    </view>
+                    <view class="content">包含：糖炒栗子，卫龙辣条，三只松鼠碧根果，亲嘴豆皮，芒果干</view>
+                </view>
+                <view class="moneybox">￥：<text class="money">26</text><text class="point">.00</text></view>
+            </view>
         </view>
-        <view class="content">包含：糖炒栗子，卫龙辣条，三只松鼠碧根果，亲嘴豆皮，芒果干</view>
-      </view>
-      <view class="listfooter">Clear</view>
-    </view>
-  </block>
+    </block>
+  </view>
+
 </view>

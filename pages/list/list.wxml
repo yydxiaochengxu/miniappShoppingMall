@@ -35,7 +35,7 @@
     <block wx:for="{{listArr}}">
         <view class="product_list r_flex_ align_cen" bindtap="goProduct_Fn">
             <view class="productimg_box">
-                <image class="product_img" lazy-load mode="aspectFit" src="{{item.productimg}}"></image>
+                <image class="product_img" lazy-load mode="aspectFill" src="{{item.productimg}}"></image>
                 <view wx:if="{{index<3}}" class="new_info">热销产品</view>
             </view>
             <view class="l_flex_ align_str product_content">

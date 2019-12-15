@@ -35,7 +35,7 @@
         <view class="handlelist rfl_ex align_cen list2" bindtap="goList_Fn">
             <image src="/images/drink.png" class="listicon" /> 饮料
         </view>
-        <view class="handlelist rfl_ex align_cen list3" bindtap="goList_Fn">
+        <view class="handlelist rfl_ex align_cen list3" data-type="1" bindtap="goList_Fn">
             <image src="/images/pepper.png" class="listicon" /> 香辣
         </view>
         <view class="handlelist rfl_ex align_cen list4">
