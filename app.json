@@ -1,5 +1,6 @@
 {
   "pages": [
+    "pages/me/me",
     "pages/index/index",
     "pages/record/record",
     "pages/shoppingCar/shoppingCar",
@@ -13,6 +14,25 @@
     "navigationBarBackgroundColor": "#fff",
     "navigationBarTitleText": "小馋猫",
     "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#818181",
+    "selectedColor": "#E02E24",
+    "backgroundColor": "#F6F6F6",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "images/home.png",
+        "selectedIconPath": "images/home1.png"
+      },
+      {
+        "pagePath": "pages/me/me",
+        "text": "我的",
+        "iconPath": "images/chanmao.jpg",
+        "selectedIconPath": "images/chanmao.jpg"
+      }
+    ]
   },
   "sitemapLocation": "sitemap.json"
 }

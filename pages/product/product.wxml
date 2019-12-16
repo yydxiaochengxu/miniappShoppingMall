@@ -31,8 +31,16 @@
         <view class="pricesub">xxxxxxx</view>
     </view>
 
+    <view class="r_flex introduce">
+        <view class="">备注：</view>
+        <view class="flex1">遇到喜欢的零食，可以先预定，预定后 2 天内到店付款取货。</view>
+    </view>
+
+
+    
+
     <view class="r_flex_ footerbtnbox">
-        <view class="leftbtn btn" bindtap="goShoppingCar_Fn">查看购物车</view>
-        <view class="rightbtn btn">加入购物车</view>
+        <view class="leftbtn btn" bindtap="goShoppingCar_Fn">收藏</view>
+        <view class="rightbtn btn">预定</view>
     </view>
 </view>

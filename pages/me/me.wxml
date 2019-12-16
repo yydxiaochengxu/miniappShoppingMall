@@ -1,0 +1,16 @@
+<!--pages/me/me.wxml-->
+<view class="lfl_ex align_cen">
+    <image src="/images/product2.jpg" mode="aspectFill" class="listimg" />
+    <view class="">username</view>
+    <view class="">有生之年，忠于生活，不辜天色，不负美食</view>
+    <view class="r_flex_ align_cen">
+        <view class="lfl_ex align_cen">
+            <view class="">66</view>
+            <view class="">预定</view>
+        </view>
+        <view class="lfl_ex align_cen">
+            <view class="">66</view>
+            <view class="">收藏</view>
+        </view>
+    </view>
+</view>
