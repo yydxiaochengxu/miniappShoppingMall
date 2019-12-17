@@ -1,1 +1,56 @@
 /* pages/me/me.wxss */
+.header{
+    padding:60rpx 40rpx 0;
+}
+.usericon{
+    width:128rpx;height:128rpx;border-radius:50%;border:solid 6rpx rgb(235, 251, 255);box-shadow:4rpx 4rpx 25rpx 12rpx lightgray;
+}
+.username{
+    font-size:34rpx;font-weight:900;margin-top:30rpx;color:#353535;letter-spacing:4rpx;
+}
+.diress{margin-top:12rpx;font-size:24rpx;}
+.say{
+    font-size:28rpx;font-weight:600;margin-top:30rpx;color:#353535;
+}
+.likebtn{
+    padding:0 18rpx;height:40rpx;border-radius:20rpx;line-height:40rpx;border:solid 1rpx;margin-right:16rpx;margin-top:20rpx;font-size:24rpx;
+}
+
+.header_r{
+    width:300rpx;height:400rpx;position:relative;
+}
+.img{
+    width:300rpx;height:400rpx;border-radius:50rpx;box-shadow:4rpx 6rpx 26rpx 10rpx rgb(175, 175, 175);
+}
+.you{
+    position:absolute;top:-20rpx;right:30rpx;width:50rpx;height:50rpx;background:purple;color:#ffffff;text-align:center;line-height:50rpx;z-index:2;border-radius:12rpx;
+}
+.you::before{
+    content:'';position:absolute;bottom:-20rpx;left:0;width:40rpx;height:40rpx;background:purple;transform:skewY(45deg);z-index:-2;
+}
+.you::after{
+    content:'';position:absolute;bottom:-20rpx;right:0;width:40rpx;height:40rpx;background:purple;transform:skewY(-45deg);z-index:-2;
+}
+
+.viewbox{padding:30rpx;margin-top:30rpx;}
+.title{font-size:32rpx;font-weight:900;color:#353535;letter-spacing:4rpx;line-height:1;}
+.subtitle{
+    margin-top:10rpx;font-size:24rpx;
+}
+.scroll-view{width:690rpx;height:200rpx;white-space: nowrap;margin-top:30rpx;}
+.scroll-view-item{
+    display:inline-block;width:300rpx;height:200rpx;background:lightgray;margin-right:20rpx;border-radius:30rpx;box-sizing:border-box;padding:0 30rpx;
+}
+.scroll1{
+    background:linear-gradient(150deg, rgb(186, 240, 165),rgb(238, 141, 106))
+}
+.scroll2{
+    background:linear-gradient(150deg, rgb(194, 211, 243),rgb(252, 182, 141))
+}
+.scroll3{
+    background:linear-gradient(150deg, rgb(227, 190, 245),rgb(221, 243, 124))
+}
+.scrollitemdate{height:inherit;}
+.numtitle{margin-top:20rpx;}
+
+.likebox{padding:30rpx;}

@@ -29,6 +29,12 @@ Page({
 
   },
 
+  goShoppingCar_Fn:function(){
+    wx.navigateTo({
+      url: '/pages/shoppingCar/shoppingCar',
+    })
+  },
+
   /**
    * 生命周期函数--监听页面隐藏
    */

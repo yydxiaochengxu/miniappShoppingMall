@@ -4,10 +4,10 @@
     <view class="storebtn" bindtap="store_Fn">保存至相册</view>
 </view>
 <view class="">
-    <swiper class="swiper" indicator-dots="{{indicatorDots}}" autoplay circular interval="3200" duration="500">
+    <swiper class="swiper" indicator-dots="{{indicatorDots}}" autoplay circular interval="3600" duration="500" previous-margin="40" next-margin="40" bindchange="swiperChange_Fn" indicator-dots indicator-color indicator-active-color="orangered">
         <block wx:for="{{imgUrls}}">
-            <swiper-item>
-                <image src="{{item}}" mode="aspectFill" class="slide_image"/>
+            <swiper-item class="rfl_ex">
+                <image src="{{item}}" mode="aspectFill" class="slide_image" style="transform:scale({{current===index?1:0.88}})"/>
             </swiper-item>
         </block>
     </swiper>
@@ -27,13 +27,13 @@
     <view class="introduce">产品介绍：好多文本好多文本好多文本好多文本好多文本好多文本好多文本好多文本好多文本好多文本好多文本好多文本好多文本好多文本好多文本好多文本好多文本好多文本好多文本好多文本</view>
 
     <view class="pricebox">
-        <view class="price">$66.00</view>
+        <view class="price">$28.00</view>
         <view class="pricesub">xxxxxxx</view>
     </view>
 
     <view class="r_flex introduce">
         <view class="">备注：</view>
-        <view class="flex1">遇到喜欢的零食，可以先预定，预定后 2 天内到店付款取货。</view>
+        <view class="flex1">遇到喜欢的零食，可以先预定，预定后 2 天内到店付款取货。地址：走马小馋猫零食铺子</view>
     </view>
 
 

@@ -1,11 +1,12 @@
 /* pages/product/product.wxss */
 page{background:#F9F9FB;}
-.sharebox{width:750rpx;min-height:1200rpx;height:100vh;position:relative;background:rgba(0,0,0,0.2);position: fixed;top:0;left:0;z-index:10;}
+.sharebox{width:750rpx;min-height:1200rpx;height:100vh;background:rgba(0,0,0,0.2);position: fixed;top:0;left:0;z-index:10;}
 .sharecanvas{width:750rpx;height:1200rpx;position:fixed;top:1500rpx;left:800rpx;}
 .shareimg{width:750rpx;height:1200rpx;transform:scale(0.8) translateY(-80rpx)}
 .storebtn{width:650rpx;height:82rpx;position:absolute;bottom:68rpx;left:50rpx;text-align:center;line-height:82rpx;background:#8FE2DD;color:#ffffff;border-radius:10rpx;letter-spacing:8rpx;}
 
-.swiper,.slide_image{width:750rpx;height:464rpx;}
+.swiper,.slide_image{width:750rpx;height:420rpx;}
+.slide_image{transition-duration:0.5s;border-radius:20rpx;}
 
 .product{margin-right:-30rpx;}
 .contentbox{padding:40rpx;}

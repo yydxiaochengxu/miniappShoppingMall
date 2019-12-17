@@ -12,6 +12,7 @@
 .align_cen{align-items: center;}
 .align_end{align-items:flex-end;}
 .align_line{align-items: baseline;}
+.nowrap{flex-wrap:nowrap}
 .wrap{flex-wrap:wrap;align-content:flex-start}
 .flex1{flex:1;}
 

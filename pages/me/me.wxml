@@ -1,9 +1,22 @@
 <!--pages/me/me.wxml-->
-<view class="lfl_ex align_cen">
-    <image src="/images/product2.jpg" mode="aspectFill" class="listimg" />
-    <view class="">username</view>
-    <view class="">有生之年，忠于生活，不辜天色，不负美食</view>
-    <view class="r_flex_ align_cen">
+<view class="r_flex_ header">
+    <view class="flex1">
+        <image src="/images/tiger.jpg" mode="aspectFill" class="usericon" />
+        <view class="username">小馋猫</view>
+        <view class="diress">男 中国湖北恩施</view>
+        <view class="say">不辜天色，不负美食</view>
+        <view class="r_flex">
+            <view class="likebtn">蛋糕</view>
+            <view class="likebtn">奶酪</view>
+            <view class="likebtn">巧克力</view>
+        </view>
+    </view>
+    <view class="header_r">
+        <image src="/images/product10.jpg" mode="aspectFill" class="img" />
+        <view class="you">优</view>
+    </view>
+
+    <!-- <view class="r_flex_ align_cen">
         <view class="lfl_ex align_cen">
             <view class="">66</view>
             <view class="">预定</view>
@@ -12,5 +25,34 @@
             <view class="">66</view>
             <view class="">收藏</view>
         </view>
-    </view>
+    </view> -->
+</view>
+<view class="viewbox">
+    <view class="title">我的关注</view>
+    <view class="subtitle">包含预定产品和收藏零食</view>
+    <scroll-view class="scroll-view" scroll-x="true" bindscroll="scroll">
+        <view class="scroll-view-item scroll1" bindtap="goShoppingCar_Fn">
+            <view class="lfl_ex scrollitemdate">
+                <view class="title">12</view>
+                <view class="numtitle title">我的预定</view>
+            </view>
+        </view>
+        <view class="scroll-view-item scroll2">
+            <view class="lfl_ex scrollitemdate">
+                <view class="title">56</view>
+                <view class="numtitle title">我的收藏</view>
+            </view>
+        </view>
+        <view class="scroll-view-item scroll3">
+            <view class="lfl_ex scrollitemdate">
+                <view class="title">9</view>
+                <view class="numtitle title">我的评论</view>
+            </view>
+        </view>
+    </scroll-view>
+</view>
+
+<view class="likebox">
+    <view class="title">猜你喜欢</view>
+    <view class="subtitle">你也许会喜欢以下零食</view>
 </view>

@@ -1,5 +1,5 @@
 <view class="container">
-    <view class="title">购物车（{{isallchoose}}）</view>
+    <view class="title">预定（{{isallchoose}}）</view>
     <block wx:for="{{listarr}}">
         <view class="">
           <view class="spacing"></view>
@@ -21,7 +21,8 @@
                         <icon wx:if="{{item.choose}}" color="#ffffff" type="success_no_circle" size="16" />
                     </view>
                 </view>
-                <image class="image" mode="aspectFit" src="{{item.src}}"></image>
+                <!-- <image class="image" mode="aspectFit" src="{{item.src}}"></image> -->
+                <image class="image" mode="aspectFit" src="/images/product{{index+1}}.jpg"></image>
                 <view class="h190 flex1">
                     <view class="li_down_title">好看的皮囊千滤一遍，有趣的灵魂万里挑一！</view>
                     <view class="oldpic">{{item.number}}日；{{item.name}}</view>

@@ -20,7 +20,7 @@
                     </view>
                     <view class="content">包含：糖炒栗子，卫龙辣条，三只松鼠碧根果，亲嘴豆皮，芒果干</view>
                 </view>
-                <view class="moneybox">￥：<text class="money">26</text><text class="point">.00</text></view>
+                <view class="moneybox">￥：<text class="money">28</text><text class="point">.00</text></view>
             </view>
         </view>
     </block>
